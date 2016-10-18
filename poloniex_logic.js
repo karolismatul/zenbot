@@ -20,7 +20,7 @@ module.exports = function container (get, set, clear) {
   var start = new Date().getTime()
 
 
-  /*
+ 
   function onOrder (err, resp, order) {
     if (err) return get('logger').error('order err', err, resp, order, {feed: 'errors'})
     if (resp.statusCode !== 200) {
@@ -46,8 +46,8 @@ module.exports = function container (get, set, clear) {
     }
     getStatus()
   }
-  */
-
+ 
+ /*
   function syncLearned () {
     get('mems').load('learned', function (err, learned) {
       if (err) throw err
@@ -72,7 +72,7 @@ module.exports = function container (get, set, clear) {
       }
     })
   }
-
+ */
   return [
     // BEGIN DEFAULT TRADE LOGIC
     // default params
