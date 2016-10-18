@@ -4,7 +4,7 @@ module.exports = function (c) {
   // graph server
   c.default_graph_period = "1h"
   c.default_graph_limit = 200
-  c.graph_limits = [50, 100, 150, 200, 300, 500, 1000, 2000]
+  c.graph_limits = [50, 100, 150, 200, 300, 500, 1000, 2000, 5000]
   c.log_query_limit = 200
   c.tracking_scripts = ''
 
@@ -39,7 +39,7 @@ module.exports = function (c) {
   c.min_log_trades = 2
 
   // backfiller
-  c.backfill_days = 91
+  c.backfill_days = 150
   c.record_timeout = 20000
   c.backfill_timeout = 5000
 
