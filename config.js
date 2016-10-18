@@ -6,8 +6,8 @@ c.mongo_url = "mongodb://" + (process.env.MONGODB_PORT_27017_TCP_ADDR || "localh
 c.mongo_username = null // normally not needed
 c.mongo_password = null
 
-c.poloniex_key = '' // TO ENABLE BOT TRADING: set this to Poloniex API key,
-c.poloniex_secret = '' // set this to Poloniex API secret,
+c.poloniex_key = '8DYC7CT1-IVQD9GN0-DI8HYIA7-S80P2W90' // TO ENABLE BOT TRADING: set this to Poloniex API key,
+c.poloniex_secret = '19715cd8b8f32289c9dd3f4181a83d3a3cfc1eeb70febbf4bba46af0f5b8256e402a422ee363d65969da17ecca82aa02066429f3fc76a58dbbe3b6d2708c4a9f' // set this to Poloniex API secret,
 
 c.trade_log = true // log new trades as they come in.
 
